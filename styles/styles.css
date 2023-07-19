@@ -153,8 +153,9 @@
  .banner-button .button-1 {
            display: inline-flex;
            padding: 21px 40px;
-           font-weight: 500;
+           font-weight: 700;
            font-size: 20px;
+           color: #FFF;
            align-items: flex-start;
            gap: 10px;
            border-radius: 48px;
@@ -250,7 +251,6 @@
 
  /* <!-- ---------------------Banner-2 End Here--------------------- --> */
  /* <!-- ---------------------Online Games Start Here--------------- --> */
- .online-games {}
 
  .online-games-headline h1 {
            color: #0B0223;
@@ -322,13 +322,13 @@
            font-weight: 700;
            line-height: 60px;
            text-align: center;
-           
+
  }
 
  .play-instantly .para {
            /* display: flex;
            justify-content: center; */
-          text-align: center;
+           text-align: center;
  }
 
  .play-instantly-text span {
@@ -348,4 +348,55 @@
  /* <!-- ---------------------Link Section End Here----------------- --> */
 
  /* <!-- ---------------------Footer Start Here--------------------- --> */
+ footer {
+           background-color: #0B0223;
+
+ }
+
+ footer .section-1 h1 {
+           text-align: center;
+           font-size: 45px;
+           font-weight: 700px;
+           color: #FFF;
+ }
+
+ .gamer {
+           color: #FF42A5;
+ }
+
+ footer .section-1 {
+           padding-top: 20px;
+ }
+
+ .a-link {
+           text-decoration: none;
+           color: #FFF;
+ }
+
+ .section-22 {
+           /* border: 2px solid rebeccapurple; */
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 10px 50px 10px;
+           margin: 0 400px 20px;
+ }
+
+ .term-link {
+           text-decoration: none;
+
+           color: rgba(255, 255, 255, 0.60);
+           text-align: center;
+           font-size: 16px;
+           font-weight: 500;
+ }
+
+ .section-23 div {
+           color: rgba(255, 255, 255, 0.60);
+           text-align: center;
+           font-size: 16px;
+           font-weight: 500;
+           margin: 10px auto 80px;
+ }
+
  /* <!-- ---------------------Footer End Here----------------------- --> */
