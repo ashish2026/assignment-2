@@ -1,0 +1,26 @@
+/* -------------Responsive For Mobile---------------- */
+/* <!-- ---------------------Navbar Start Here--------------------- --> */
+@media screen and (max-width : 576px) {
+          .section-2 {
+                    flex-direction: column;
+          }
+
+          nav {
+                    flex-direction: column;
+                    margin: auto;
+          }
+
+          .section-2 a,
+          .follow-btn {
+                    margin-bottom: 20px;
+          }
+
+          .section-1 {
+                    margin: 20px 35px 0px 30px;
+                    size: 50px;
+          }
+
+          /* <!-- ---------------------Navbar End Here----------------------- --> */
+          /* <!-- ---------------------Banner-1 Start Here------------------- --> */
+
+          }

@@ -1,20 +1,192 @@
-/* <!-- ---------------------Navbar Start Here--------------------- --> */
-/* <!-- ---------------------Navbar End Here----------------------- --> */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
 
-/* <!-- ---------------------Banner-1 Start Here------------------- --> */
-/* <!-- ---------------------Banner-1 End Here--------------------- --> */
+ * {
+           font-family: 'Work Sans', sans-serif;
+ }
 
-/* <!-- ---------------------Banner-2 Start Here------------------- --> */
-/* <!-- ---------------------Banner-2 End Here--------------------- --> */
+ /* <!-- ---------------------Navbar Start Here--------------------- --> */
+ nav {
+           display: flex;
+           justify-content: space-between;
+           background: #FFF;
+           box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
-/* <!-- ---------------------Online Games Start Here--------------- --> */
-/* <!-- ---------------------Online Games End Here----------------- --> */
 
-/* <!-- ------------Play Instantly Banner Start Here--------------- --> */
-/* <!-- ------------Play Instantly Banner End Here----------------- --> */
+ }
 
-/* <!-- ---------------------Link Section Start Here--------------- --> */
-/* <!-- ---------------------Link Section End Here----------------- --> */
+ .section-1 {
+           display: flex;
+           justify-content: center;
+           padding: 50px auto 50px;
+           margin-left: 40px;
 
-/* <!-- ---------------------Footer Start Here--------------------- --> */
-/* <!-- ---------------------Footer End Here----------------------- --> */
+ }
+
+ .nav-img {
+           height: 1px;
+           width: 1px;
+           padding-top: 50px;
+           margin-right: 100px;
+           align-content: center;
+ }
+
+ .section-1 h1 {
+           text-align: center;
+           font-size: 45px;
+           font-weight: 700px;
+
+ }
+
+ .gamer {
+           color: #FF42A5;
+ }
+
+ .section-2 {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           /* padding-left: 50px;
+           padding-right: 20px; */
+ }
+
+ .section-2 a,
+ .follow-btn {
+           text-decoration: none;
+           size: 40px;
+           margin-right: 20px;
+ }
+
+ .follow-btn {
+           width: 150px;
+           height: 40px;
+           flex-shrink: 0;
+           border-radius: 8px;
+           background-color: rgba(11, 2, 35, 0.10);
+           border: none;
+ }
+
+ /* <!-- ---------------------Navbar End Here----------------------- --> */
+
+
+
+
+
+ /* <!-- ---------------------Banner-1 Start Here------------------- --> */
+ .banner-container-1 {
+           display: flex;
+           margin: 0 auto o;
+ }
+
+ .section-1-banner-1 {
+           width: 50%;
+           height: 50%;
+           object-fit: fills;
+
+
+ }
+
+ .play-got {
+           /* 
+           border: 3px solid rgba(146, 115, 169, 0.717); */
+           height: 180px;
+           display: flex;
+           flex-direction: column;
+
+ }
+
+ .banner-text h3 {
+           color: #0B0223;
+           text-align: center;
+           ;
+           font-size: 48px;
+           font-weight: 600;
+           text-transform: uppercase;
+           margin-bottom: 1px;
+           /* border: 3px solid red; */
+
+ }
+
+ .banner-text h1 {
+           text-align: center;
+           font-size: 60px;
+           font-weight: 800;
+           background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+           background-clip: text;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           /* border: 3px solid red; */
+           margin-top: 1px;
+ }
+
+ .section-2-banner-1 {
+
+height: 50%;
+           width: 50%;
+ }
+
+ .para-text {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           color: #534C64;
+           text-align: start;
+           font-size: 20px;
+           font-weight: 500;
+           text-transform: lowercase;
+ }
+ .para-text p{
+
+          margin: 0 auto 30px;
+ }
+
+ .banner-button {
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           /* border: 3px solid red; */
+ }
+
+ .banner-button .button-1 {
+           display: inline-flex;
+           padding: 21px 40px;
+           font-weight: 500;
+           font-size: 20px;
+           align-items: flex-start;
+           gap: 10px;
+           border-radius: 48px;
+           background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+           border: none;
+           margin-right: 30px;
+ }
+
+ .banner-button .button-2 {
+           color: #FFF;
+           font-size: 20px;
+           font-style: normal;
+           font-weight: 600;
+           text-transform: uppercase;
+           display: inline-flex;
+           padding: 21px 40px;
+           align-items: flex-start;
+           gap: 10px;
+           border-radius: 48px;
+           background: #4EC5F7;
+           border: none;
+ }
+
+ /* <!-- ---------------------Banner-1 End Here--------------------- --> */
+
+ /* <!-- ---------------------Banner-2 Start Here------------------- --> */
+ /* <!-- ---------------------Banner-2 End Here--------------------- --> */
+
+ /* <!-- ---------------------Online Games Start Here--------------- --> */
+ /* <!-- ---------------------Online Games End Here----------------- --> */
+
+ /* <!-- ------------Play Instantly Banner Start Here--------------- --> */
+ /* <!-- ------------Play Instantly Banner End Here----------------- --> */
+
+ /* <!-- ---------------------Link Section Start Here--------------- --> */
+ /* <!-- ---------------------Link Section End Here----------------- --> */
+
+ /* <!-- ---------------------Footer Start Here--------------------- --> */
+ /* <!-- ---------------------Footer End Here----------------------- --> */
