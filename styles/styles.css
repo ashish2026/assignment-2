@@ -364,13 +364,30 @@
 
  }
 
- .hover-container{
-     display: grid;
-     grid-template-columns: repeat(5 ,1fr);
+ .hover-container {
+           display: grid;
+           grid-template-columns: repeat(5, 1fr);
  }
 
  .btn-img {
-           width: 30px;
+           width: 50%;
+ }
+
+ .btn {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 60px;
+           width: 200px;
+           border: none;
+
+ }
+
+ .btn h6 {
+           width: 50%%;
+           font-size: 10px;
+           font-weight: 600;
+
  }
 
  /* <!-- ---------------------Link Section End Here----------------- --> */
